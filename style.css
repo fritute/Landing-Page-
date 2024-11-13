@@ -1,5 +1,45 @@
 *{
+    background-color: red;
     padding: 0;
     margin: 0;
     box-sizing: border-box
+    
+}
+a{
+ text-decoration: none;
+}
+ul,ol,li{
+    color: white;
+    align-items: center;
+    list-style: none
+}
+header{
+    padding: 32px;
+    position: fixed;
+    width: 100vw;
+   
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+ 
+
+}
+header nav a:hover{
+    border-bottom: 1px solid black;
+}
+header nav a{
+    color: white;
+    padding: 8px;
+    transition: 1s;
+}
+.bebe{
+    height: 80px;
+    width: -100px;
+    background-size: cover;
+   
+}
+.bebes{
+    max-width: 10px;
 }
